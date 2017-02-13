@@ -8,11 +8,11 @@ var a=0;
  * Array containing autism facts.
  */
 var FACTS = [
-    "High-quality early intervention for autism can do more than improve behaviors, it can improve brain function ...
+"High-quality early intervention for autism can do more than improve behaviors, it can improve brain function ...",
 
-"Being nonverbal at age 4 does NOT mean children with autism will never speak. Research shows that most will, in fact, learn to use words, and nearly half will learn to speak fluently...  
+"Being nonverbal at age 4 does NOT mean children with autism will never speak. Research shows that most will, in fact, learn to use words, and nearly half will learn to speak fluently...",  
 
-"Though autism tends to be life long, some children with ASD make so much progress that they no longer meet the diagnostic criteria for autism. High quality early-intervention may be key... 
+"Though autism tends to be life long, some children with ASD make so much progress that they no longer meet the diagnostic criteria for autism. High quality early-intervention may be key... ",
 
 "Many younger siblings of children with ASD have developmental delays and symptoms that fall short of an autism diagnosis, but still warrant early intervention... ",
 
