@@ -3,7 +3,6 @@ var Alexa = require('alexa-sdk');
 
 var APP_ID = "amzn1.echo-sdk-ams.app.[amzn1.ask.skill.1291781f-c9af-4b99-ab3a-34e622ed1c80]";
 var SKILL_NAME = 'Autism Fact';
-var a=0;
 /**
  * Array containing autism facts.
  */
@@ -146,6 +145,7 @@ var FACTS = [
 
 ];
 
+var a= Math.floor(Math.random() * FACTS.length);
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
