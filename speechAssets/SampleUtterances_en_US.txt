@@ -1,0 +1,40 @@
+LaunchRequest tell me an autism fact
+
+GetNewFactIntent a fact
+GetNewFactIntent an autism fact
+GetNewFactIntent tell me a fact
+GetNewFactIntent tell me an autism fact
+GetNewFactIntent give me a fact
+GetNewFactIntent give me an autism fact
+GetNewFactIntent tell me trivia
+GetNewFactIntent tell me an autism trivia
+GetNewFactIntent give me trivia
+GetNewFactIntent give me an autism trivia
+GetNewFactIntent give me some information
+GetNewFactIntent give me some autism information
+GetNewFactIntent tell me something
+GetNewFactIntent give me something
+GetNewFactIntent otsimo fact
+
+AMAZON.HelpIntent what is autism fact
+AMAZON.HelpIntent help me about autism fact
+
+AMAZON.CancelIntent cancel
+AMAZON.CancelIntent no
+AMAZON.CancelIntent no thanks
+AMAZON.CancelIntent no thank you
+AMAZON.CancelIntent exitt
+AMAZON.CancelIntent quitt
+AMAZON.CancelIntent i dont want
+AMAZON.CancelIntent no i dont
+AMAZON.CancelIntent no i dont want
+
+AMAZON.StopIntent stop
+AMAZON.StopIntent no
+AMAZON.StopIntent quitt
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you
+AMAZON.StopIntent exitt
+AMAZON.StopIntent no i dont want
+AMAZON.StopIntent no i dont
+AMAZON.StopIntent i dont want
