@@ -42,7 +42,7 @@ var FACTS = [
 
 "Autism is the fastest growing developmental disorder, yet most underfunded...",
 
-"A 2008 Danish Study found that the mortality risk among those with autism was nearly twice that of the general population...
+"A 2008 Danish Study found that the mortality risk among those with autism was nearly twice that of the general population...",
 
 "Children with autism do progress – early intervention is key...",
 
