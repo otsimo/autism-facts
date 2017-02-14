@@ -28,7 +28,7 @@ function getFact() {
         a = a + 1;
     }
     var speechOutput = "Here's your fact: " + randomFact + "Do you want more facts?";
-    var reprompt = "Hello, Do you want more facts?";
+    var reprompt = "Do you want more facts?";
     this.emit(':askWithCard', speechOutput, reprompt, SKILL_NAME, randomFact);
 }
 
