@@ -2,7 +2,7 @@
   "name": "autism-facts",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"no test\""
   },
