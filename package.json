@@ -18,5 +18,8 @@
   "homepage": "https://github.com/otsimo/autism-facts#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/alexa-sdk": "^1.0.4"
   }
 }
