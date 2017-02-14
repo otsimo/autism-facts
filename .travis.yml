@@ -13,6 +13,7 @@ deploy:
   role: "arn:aws:iam::287158525228:role/lambda_basic_execution"
   function_name: "myFactSkill"
   handler_name: "index.handler"
+  runtime: nodejs4.3
 
 notifications:
   email: false
