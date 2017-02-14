@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - "6"
 
+script:
+ - npm test
+
 deploy:
   access_key_id: "AKIAIG5K6XQOZJOHOH5A"
   secret_access_key:
@@ -10,3 +13,9 @@ deploy:
   role: "arn:aws:iam::287158525228:role/lambda_basic_execution"
   function_name: "myFactSkill"
   handler_name: "index.handler"
+
+notifications:
+  email: false
+  slack:
+    secure: saT6I5P7ypAArZwDSyC//fejVDHUDaT/8sOZY8qGUXxHA2wXiORYQROUmyLdk+kThhg1vAsPvk+VECBjs/KzvZaehSZmg38XfJuTFb5yp42WbK58x7nHNsmAc4hJPlSSsIUplZ6ORxjbgfvIq1WTyrxpkYmRXztb2BVvDsQphVrPCYO2PwIdfCsvsJ5KoDSL+tcxkm7APkPN3btd9w7HG48fg7tVR7I+vLqt1A6pxvTXtcScn1z/YwvYsEd+3uxIEYe9K1cQvybFxHGVaB8hPjUmhNNptifhBDcJtR8PyG+VXE5qN9ZdvS5cTwIxML0FPx9FF2Ok7ElTfLEkmLXqYMlL57w+bf5RBYTn4GIIoBj6k/PAiephghKC/H+sw5r6yvBQdRCs+/NOM3f5L8F/AFmxrOKfDo4RIjJ+qRfEK7ppfljHBAPOfFgSiYaVcRoxhaw1d3ooiq/XT6AxyTr80Mz8mAB3dUvRCw0gB3/lsbvLKGrSyTp14ERwdfHpcgxpGMMhJu7ketXe6gUrYIIffbNg5ItXg88x//jx5NKdTqZMs/S1yR1/dQPiPkxbZckARIbmTwJK/oTTLaW5fj3WiWsb7sqxx0u+DWZnRvLbqI+LI0X0L/ewRvK9hMmwVXc5jZuzH3fwDpiWEzJxuQiiZyL/9E8DXhbn5Msl77LkAVQ=
+  
