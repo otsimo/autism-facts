@@ -1,0 +1,22 @@
+{
+  "name": "autism-facts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otsimo/autism-facts.git"
+  },
+  "author": "",
+  "license": "GPL-v3",
+  "bugs": {
+    "url": "https://github.com/otsimo/autism-facts/issues"
+  },
+  "homepage": "https://github.com/otsimo/autism-facts#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7"
+  }
+}
