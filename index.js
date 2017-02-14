@@ -17,6 +17,21 @@ exports.handler = function (event, context, callback) {
     alexa.execute();
 };
 
+function getFact() {
+    console.log("Running GetFact");
+    var randomFact = FACTS[a];
+    a = a + 1;
+    // Create speech output
+    if (typeof randomFact == "undefined") {
+        a = 0;
+        randomFact = FACTS[a];
+        a = a + 1;
+    }
+    var speechOutput = "Here's your fact: " + randomFact + "Do you want more facts?";
+    var reprompt = "Do you want more facts?";
+    this.emit(':askWithCard', speechOutput, reprompt, SKILL_NAME, randomFact);
+}
+
 var handlers = {
     'LaunchRequest': function () {
         console.log("Running LaunchRequest");
@@ -26,21 +41,7 @@ var handlers = {
         console.log("Running GetNewFactIntent");
         this.emit('GetFact');
     },
-    'GetFact': function () {
-        console.log("Running GetFact");  
-        var randomFact = FACTS[a];
-        a = a + 1;
-        // Create speech output
-        if (typeof randomFact == "undefined") {
-            a = 0;
-            randomFact = FACTS[a];
-            a = a + 1;
-        }
-        var speechOutput = "Here's your fact: " + randomFact + "Do you want more facts?";
-        var reprompt = "Do you want more facts?";
-        this.emit(':askWithCard', speechOutput, reprompt, SKILL_NAME, randomFact);
-
-    },
+    'GetFact': getFact,
     'AMAZON.HelpIntent': function () {
         var speechOutput = "You can say tell me a autism fact, or, you can say exit... What can I help you with?";
         var reprompt = "What can I help you with?";
