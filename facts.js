@@ -100,8 +100,6 @@ module.exports = [
 
     "Researchers recommend autistic testing if a baby doesn’t babble or coo by 12 months, doesn’t point or wave by 12 months, doesn’t say single words by 16 months, doesn’t say two-word phrases by 24 months, or loses previously acquired language or social skills at any age...",
 
-    "Chelation therapy, which removes mercury from the body, is a popular alternative treatment for autism, though it has not been proven to be a safe or effective treatment...",
-
     "In families with one autistic child, the risk of having a second child with the disorder is approximately 5%, or one in 20. This is greater than the risk for the general population...",
 
     "Some cases of autism may be associated with a family history of manic depression...",
