@@ -10,6 +10,7 @@ var SKILL_NAME = 'Autism Fact';
 var a = Math.floor(Math.random() * FACTS.length);
 
 exports.handler = function (event, context, callback) {
+    console.log("event log"=event);
     console.log("Running handler function");
     var alexa = Alexa.handler(event, context);
     alexa.APP_ID = APP_ID;
