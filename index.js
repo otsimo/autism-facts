@@ -10,7 +10,7 @@ var SKILL_NAME = 'Autism Fact';
 var a = Math.floor(Math.random() * FACTS.length);
 
 function getFact() {
-  console.log('Running GetFact');
+  console.log('Running GetFact',arguments);
   var randomFact = FACTS[a];
   a += 1;
   // Create speech output
