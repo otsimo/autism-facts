@@ -26,11 +26,11 @@ function getFact() {
 
 var handlers = {
   LaunchRequest: function () {
-    console.log('Running LaunchRequest',arguments);
+    console.log('Running LaunchRequest', arguments);
     this.emit('GetFact');
   },
   GetNewFactIntent: function () {
-    console.log('Running GetNewFactIntent',arguments);
+    console.log('Running GetNewFactIntent', arguments);
     this.emit('GetFact');
   },
   GetFact: getFact,
@@ -47,9 +47,9 @@ var handlers = {
   },
 };
 
-exports.handler = function (event, context) {
-  console.log('Running handler function',arguments);
-  var alexa = Alexa.handler(event, context);
+exports.handler = function (event, context, callback) {
+  console.log('Running handler function', arguments);
+  var alexa = Alexa.handler(event, context, callback);
   alexa.APP_ID = APP_ID;
   alexa.registerHandlers(handlers);
   alexa.execute();
