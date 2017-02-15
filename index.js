@@ -8,17 +8,17 @@ var SKILL_NAME = 'Autism Fact';
 var a = Math.floor(Math.random() * FACTS.length);
 
 function launchRequest() {
-  console.log('Running LaunchRequest', event);
+  console.log('Running LaunchRequest', arguments);
   this.emit('GetFact');
 }
 
 function getNewFactIntent() {
-  console.log('Running GetNewFactIntent', event);
+  console.log('Running GetNewFactIntent', arguments);
   this.emit('GetFact');
 }
 
 function getFact() {
-  console.log('Running GetFact', event);
+  console.log('Running GetFact', arguments);
   var randomFact = FACTS[a];
   a += 1;
   // Create speech output
@@ -38,7 +38,7 @@ function HelpIntent() {
   this.emit(':ask', speechOutput, reprompt);
 }
 function CancelIntent() {
-  console.log('Running CancelIntent', event);
+  console.log('Running CancelIntent', arguments);
   this.emit(':tell', 'Otsimo is an education app for children who have autism syndrome. We are creating educational games and parent app. Goodbye!');
 }
 function StopIntent() {
