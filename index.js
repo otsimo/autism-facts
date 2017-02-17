@@ -56,12 +56,11 @@ var handlers = {
 };
 
 exports.handler = function (event, context, callback) {
-  console.log('Running handler function', arguments);
+  console.log('user response', event.request.intent.slots.firstname.value);
   var alexa = Alexa.handler(event, context, callback);
   alexa.APP_ID = APP_ID;
   alexa.registerHandlers(handlers);
   alexa.execute();
-  console.log('user response', event.request.intent.slots.firstname.value);
 
 };
 
