@@ -30,6 +30,15 @@ function getFact() {
   var speechOutput = 'Here\'s your fact: ' + randomFact + 'Do you want more facts?';
   var reprompt = 'Do you want more facts?';
   this.emit(':askWithCard', speechOutput, reprompt, SKILL_NAME, randomFact);
+  var userValue = this.event.request.intent.slots.firstname.value;
+  if (userValue == randomFact) {
+    var speechOutput = "Good job!";
+    this.emit(':tell', speechOutput);
+  }
+  else {
+    var speechOutput = "Bad job!";
+    this.emit(':tell', speechOutput);
+  }
 }
 
 function HelpIntent() {
