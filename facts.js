@@ -9,16 +9,10 @@ module.exports = [
     "Many younger siblings of children with ASD have developmental delays and symptoms that fall short of an autism diagnosis, but still warrant early intervention... ",
 
     "Research confirms what parents have been saying about wandering and bolting by children with autism: It’s common, it’s scary, and it doesn’t result from careless parenting... ",
-
-    "Prenatal folic acid, taken in the weeks before and after a woman becomes pregnant, may reduce the risk of autism... ",
-
+    
     "One of the best ways to promote social skills in grade-schoolers with autism is to teach their classmates how to befriend a person with developmental disabilities... ",
 
     "Researchers can detect presymptom markers of autism as early as 6 months – a discovery that may lead to earlier intervention to improve outcomes... ",
-
-    "The first medicines for treating autism’s core symptoms are showing promise in early clinical trials... ",
-
-    "Investors and product developers will enthusiastically respond to a call to develop products and services to address the unmet needs of the autism community...  ",
 
     "Autism now affects 1 in 68 children and 1 in 42 boys...",
 
@@ -40,19 +34,9 @@ module.exports = [
 
     "Autism is treatable, not a hopeless condition...",
 
-    "Eugen Bleuler (1857-1939), a Swiss psychiatrist, first termed “autism” but applied it to adult schizophrenia. In 1943, the term was redefined by Leo Kanner (1894-1981) who dissociated autism from schizophrenia to create the modern understanding of the disorder...",
-
-    "Autism affects one in every 150 children born in the United States...",
-
     "If one identical twin is diagnosed with autism, the other twin has about 90% chance of develop an autistic disorder...",
 
-    "Mutations on chromosome 16 have been tied to autism. The glitch is in a DNA region that contains “morpheus” genes, or genes which historically have changed very rapidly as humans evolved. In other words, the same method that helped evolve human intelligence may contribute to autism...",
-
     "There is no blood test, no scan, and no image that can detect autism. Diagnosis relies on behavioral observation and screening...",
-
-    "Naughty Auties” is a virtual resource center for those with autism...",
-
-    "Environmental factors that could trigger predisposed genes to mutate and cause autism are vast and could include certain drugs, chemicals, heavy metal exposure, antibiotics, extensive television viewing, flame retardant, or infections during pregnancy...",
 
     "A study suggests that counties with higher precipitation levels have higher autism rates...",
 
@@ -62,21 +46,13 @@ module.exports = [
 
     "Autism is more common than childhood cancer, diabetes, and AIDS combined...",
 
-    "Researchers have found that the area of the brain called the amygdala was on average 13% larger in young children with autism compared with children without autism...",
-
     "More and more doctors and researchers are referring to autism as autisms, because each child’s case is different, as are each child’s causes and treatments...",
-
-    "In 1998, a theory emerged that the MMR vaccine caused autism. Specifically, the theory argued that the vaccine lingered in the gut, causing gastrointestinal problems which led to autism. This very small study was discredited and debunked. In fact, while the rate of MMR vaccinates has remained constant, the rate of autism diagnoses has continued to soar...",
 
     "The Obama administration earmarked $211 million for autism research. The president also advocates universal screening for all infants for autism disorders, as well as rescreening for all 2-year-olds...",
 
     "Approximately 67 million people worldwide are affected by autism...",
 
     "Any child younger than 3 years of age with developmental delays qualifies to receive services through Early Intervention, a government-mandated program that provides services to eligible children. Services are free and may include speech and language instruction as well as occupational and physical therapy...",
-
-    "In 2008, several autistic children from different families were linked to a single sperm donor called Donor X...",
-
-    "Many scholars believe autism is a combination of genetic vulnerability that is triggered by some kind of social or toxic influence...",
 
     "One in 10 extremely premature infants tested positive for autism. Children who are born more than three months early have double the expected rate of autism...",
 
@@ -96,13 +72,9 @@ module.exports = [
 
     "Scientists suggest that people with autism may have abnormal levels of serotonin or other neurotransmitters in the brain, which may have resulted in the disruption of normal brain development early in fetal development...",
 
-    "Research suggests that having an older father may increase a child’s risk of autism. Children born to men 40 years old or older were almost six times more likely to have an autism spectrum disorder than those born to men younger than 30 years old. Maternal age seems to have little effect on autism risk...",
-
     "Researchers recommend autistic testing if a baby doesn’t babble or coo by 12 months, doesn’t point or wave by 12 months, doesn’t say single words by 16 months, doesn’t say two-word phrases by 24 months, or loses previously acquired language or social skills at any age...",
 
     "In families with one autistic child, the risk of having a second child with the disorder is approximately 5%, or one in 20. This is greater than the risk for the general population...",
-
-    "Some cases of autism may be associated with a family history of manic depression...",
 
     "Children with Autism Spectrum Disorders (ASDs) are guaranteed free, appropriate public education under federal laws...",
 
@@ -114,15 +86,11 @@ module.exports = [
 
     "Boys are diagnosed with autism more than girls...",
 
-    "In the United States, one in 98 boys are diagnosed with autism, and 24,000 people are diagnosed with autism for the first time every year...",
-
     "Researchers are unclear why boys are diagnosed with autism more than girls, but some think that the problem lies with the X chromosome, of which boys only have one...",
 
     "Scholars and parents debate whether autism is a disability or whether it should be considered merely a different kind of personality...",
 
     "Divorce rates are high in families with an autistic child. Researchers suggest reducing stress by ensuring an autistic child receives appropriate health care, setting aside time for a spouse, and creating a support system with other families of children with autism...",
-
-    "Mothers who have autoimmune diseases such as type1 diabetes, rheumatoid arthritis, and celiac disease have up to three times a greater risk for having a child with autism...",
 
     "Children who are born underweight or premature may have a higher risk for autism...",
 
