@@ -37,13 +37,20 @@ function HelpIntent() {
   var reprompt = 'What can I help you with?';
   this.emit(':ask', speechOutput, reprompt);
 }
+
 function CancelIntent() {
   console.log('Running CancelIntent', arguments);
   this.emit(':tell', 'Otsimo is an education app for children who have autism syndrome. We are creating educational games and parent app. Goodbye!');
 }
+
 function StopIntent() {
   console.log('Running StopIntent ', arguments);
   this.emit(':tell', 'Goodbye!');
+}
+
+function unhandled() {
+  var message = 'Say yes to continue, or no to end the game.';
+  this.emit(':ask', message, message);
 }
 
 var handlers = {
@@ -53,6 +60,7 @@ var handlers = {
   'AMAZON.HelpIntent': HelpIntent,
   'AMAZON.CancelIntent': CancelIntent,
   'AMAZON.StopIntent': StopIntent,
+  'Unhandled': unhandled
 };
 
 exports.handler = function (event, context, callback) {
