@@ -30,11 +30,3 @@ AMAZON.CancelIntent no i dont
 AMAZON.CancelIntent no i dont want
 
 AMAZON.StopIntent stop
-AMAZON.StopIntent no
-AMAZON.StopIntent quitt
-AMAZON.StopIntent no thanks
-AMAZON.StopIntent no thank you
-AMAZON.StopIntent exitt
-AMAZON.StopIntent no i dont want
-AMAZON.StopIntent no i dont
-AMAZON.StopIntent i dont want
